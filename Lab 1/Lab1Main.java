@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main {
+public class Lab1Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a Word: ");
@@ -32,5 +32,6 @@ public class Main {
         else {
             System.out.println(wordTwo + " is found in " + wordOne + " at index " + foundIndex);
         }
+        sc.close();
     }
 }
