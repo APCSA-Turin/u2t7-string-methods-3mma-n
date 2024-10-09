@@ -1,3 +1,4 @@
+package Lab2;
 import java.util.Scanner;
 
 public class Lab2Main {
@@ -28,7 +29,6 @@ public class Lab2Main {
    }
 
    public static int firstAnyMatch(String str1, String str2) {
-      String firstLetter = str1.substring(0, 1);
       if (str2.indexOf(str1.substring(0, 1)) != -1) {
       System.out.print("+3 points: first letter of previous word is also in new word.");
          return 3;

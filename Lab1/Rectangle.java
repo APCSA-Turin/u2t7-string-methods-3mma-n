@@ -1,3 +1,4 @@
+package Lab1;
 public class Rectangle {
     private int length;
     private int width;
